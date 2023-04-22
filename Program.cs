@@ -412,7 +412,8 @@
 
 // Console.Write("Введите число: ");
 // int number = Convert.ToInt32(Console.ReadLine());
-// int getNumCount(){
+// int getNumCount()
+// {
 //     return number.ToString().Length;
 // }
 // Console.WriteLine("Количество цифр в числе: " + getNumCount());
