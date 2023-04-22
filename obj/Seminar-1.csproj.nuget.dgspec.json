@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\canbi\\OneDrive\\Desktop\\C#\\Seminar-1\\Seminar-1.csproj": {}
+    "C:\\Users\\canbi\\OneDrive\\Desktop\\C#\\Seminars-C#\\Seminar-1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\canbi\\OneDrive\\Desktop\\C#\\Seminar-1\\Seminar-1.csproj": {
+    "C:\\Users\\canbi\\OneDrive\\Desktop\\C#\\Seminars-C#\\Seminar-1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\canbi\\OneDrive\\Desktop\\C#\\Seminar-1\\Seminar-1.csproj",
+        "projectUniqueName": "C:\\Users\\canbi\\OneDrive\\Desktop\\C#\\Seminars-C#\\Seminar-1.csproj",
         "projectName": "Seminar-1",
-        "projectPath": "C:\\Users\\canbi\\OneDrive\\Desktop\\C#\\Seminar-1\\Seminar-1.csproj",
+        "projectPath": "C:\\Users\\canbi\\OneDrive\\Desktop\\C#\\Seminars-C#\\Seminar-1.csproj",
         "packagesPath": "C:\\Users\\canbi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\canbi\\OneDrive\\Desktop\\C#\\Seminar-1\\obj\\",
+        "outputPath": "C:\\Users\\canbi\\OneDrive\\Desktop\\C#\\Seminars-C#\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\canbi\\AppData\\Roaming\\NuGet\\NuGet.Config"
