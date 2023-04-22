@@ -7,12 +7,12 @@
 // -3 -> 9
 // -7 -> 49
 
-// Console.WriteLine("Введите число");
+//Решение:
 
+// Console.WriteLine("Введите число");
 // int number=Convert.ToInt32(Console.ReadLine());
 // // number=number*number;
 // number*=number;
-
 // Console.WriteLine("Квадрат числа равен: ");
 // Console.WriteLine(number);
 
@@ -25,16 +25,16 @@
 // a=9, b=-3 -> да
 // a=-3, b=9 -> нет
 
+//Решение:
+
 // Console.WriteLine("Введите число 1");
 // int number1=Convert.ToInt32(Console.ReadLine());
 // Console.WriteLine("Введите число 2");
 // int number2=Convert.ToInt32(Console.ReadLine());
-
 // if(number1==number2*number2)
 // {
 //     Console.WriteLine("Число 1 является квадратом числа 2");
 // }
-
 // else
 // {
 //     Console.WriteLine("Число 1 НЕ является квадратом числа 2");
@@ -47,44 +47,38 @@
 // 3 -> Среда
 // 5 -> Пятница
 
+//Решение:
+
 // Console.WriteLine("Введите число");
 // int number=Convert.ToInt32(Console.ReadLine());
-
 // if(number==1)
 // {
 //     Console.WriteLine("Понедельник");
 // }
-
 // else if(number==2)
 // {
 //     Console.WriteLine("Вторник");
 // }
-
 // else if(number==3)
 // {
 //     Console.WriteLine("Среда");
 // }
-
 // else if(number==4)
 // {
 //     Console.WriteLine("Четверг");
 // }
-
 // else if(number==5)
 // {
 //     Console.WriteLine("Пятница");
 // }
-
 // else if(number==6)
 // {
 //     Console.WriteLine("Суббота");
 // }
-
 // else if(number==7)
 // {
 //     Console.WriteLine("Воскресенье");
 // }
-
 // else
 // {
 //     Console.WriteLine("Такого дня недели у нас нет");
@@ -97,11 +91,11 @@
 // 4 -> "-4, -3, -2, 0, 1, 2, 3, 4"
 // 2 -> "-2, -1, 0, 1, 2"
 
+//Решение:
+
 // Console.WriteLine("Введите число");
 // int number=Convert.ToInt32(Console.ReadLine());
-
 // int negNumber=-number;
-
 // while(number>=negNumber)
 // {
 //     Console.WriteLine(negNumber);
@@ -116,21 +110,22 @@
 // // Интерполяция
 // Console.Write($"Наше число: {t} {t} skvbsjk slvjh");
 
+//========================================================================================
+
 // Задача:
 // Напишите программу, которая выводит случайное число 
 // из отрезка [10, 99] и показывает наибольшую цифру числа.
-
 // Например:
 // 78 -> 8
 // 12-> 2
 // 85 -> 8
 
+//Решение:
+
 // int num =new Random().Next(10,100); 
 // Console.WriteLine(num);
-
 // int a = num /10;
 // int b = num%10;
-
 // if(a>b)
 // {
 //     Console.WriteLine(a);
@@ -148,17 +143,17 @@
 
 // Напишите программу, которая выводит случайное трехзначное число
 // и удаляет вторую цифру этого числа.
-
 // 456 -> 46
 // 782 -> 72
 // 918 -> 98
+
+//Решение:
+
 // int num =new Random().Next(100,1000); 
 // Console.WriteLine(num);
-
 // int a = num /100;
 // int b = num % 10;
 // int c = (num % 100) / 10;
-
 // Console.WriteLine("Итоговое число " + a + b);
 // Console.WriteLine($"Итоговое число {a}{b}");
 // Console.WriteLine($"Итоговое число {c}");
@@ -167,13 +162,13 @@
 
 // Вычисление кратности чисел друг к другу
 
+//Решение:
+
 // Console.WriteLine ("Введите число 1");
 // int number1 = Convert.ToInt32(Console.ReadLine());
 // Console.WriteLine ("Введите число 2");
 // int number2 = Convert.ToInt32(Console.ReadLine());
-
 // int result = number1 % number2;
-
 // if( result == 0)
 // {
 //     Console.WriteLine ("Число 2 кратно числу 1");
@@ -188,14 +183,14 @@
 // Напишите программу, которая принимает на вход число
 //  и проверяет, кратно ли оно одновременно 
 // 7 и 23.
-
 // 14 -> нет 
 // 46 -> нет 
 // 161 -> да
 
+//Решение:
+
 // Console.WriteLine("Введите число");
 // int num = Convert.ToInt32(Console.ReadLine());
-
 // if (num % 7 == 0) && (num % 23 == 0)
 // {
 //     Console.WriteLine("ДА");    
@@ -211,7 +206,6 @@
 // int num1 = Convert.ToInt32(Console.ReadLine());
 // Console.WriteLine("Введите 2 число");
 // int num2 = Convert.ToInt32(Console.ReadLine());
-
 // if (num2 == num1*num1)
 // {
 //     Console.WriteLine("Число 2 является квадратом числа 1");
@@ -230,21 +224,20 @@
 // 17. Напишите программу, которая принимает на вход координаты точки (X и Y), причём X ≠ 0 и Y ≠ 0 
 // и выдаёт номер четверти плоскости, в которой находится эта точка.
 
+//Решение:
+
 // Console.WriteLine("Введите число ");
 //  int X = Convert.ToInt32(Console.ReadLine());
 //  Console.WriteLine("Введите число ");
 //  int Y = Convert.ToInt32(Console.ReadLine());
-
 //  if (X>0 &&Y>0)
 //  {
 //     Console.WriteLine("1 четверть ");
 //  }
-
 //  else if(X<0 &&Y>0)
 //  {
 //     Console.WriteLine("2 четверть ");
 //  }
-
 // else if(X<0 &&Y<0)
 //  {
 //     Console.WriteLine("3 четверть ");
@@ -263,9 +256,10 @@
 // Задача 18: Напишите программу, которая по заданному номеру четверти, показывает диапазон
 //  возможных координат точек в этой четверти (x и y).
 
+//Решение:
+
 // Console.WriteLine("Введите число ");
 // int input = Convert.ToInt32(Console.ReadLine());
-
 // if (input == 1)
 // {
 //     Console.WriteLine("1 четверть ");
@@ -295,7 +289,6 @@
 
 // Console.WriteLine("Введите число ");
 //  int num = Convert.ToInt32(Console.ReadLine());
-
 // switch(num)
 // {
 //     case 1:
@@ -323,7 +316,6 @@
 //         Console.WriteLine("Такой четверти нет");
 //         break;
 //     }
-
 // }
 
 //======================================================================
@@ -333,16 +325,16 @@
 // A (3,6); B (2,1) -> 5,09 
 // A (7,-5); B (1,-1) -> 7,21
 
+//Решение:
+
 // Console.WriteLine("Введите число ");
 //  int X1 = Convert.ToInt32(Console.ReadLine());
 // Console.WriteLine("Введите число ");
 //  int X2 = Convert.ToInt32(Console.ReadLine());
-
 // Console.WriteLine("Введите число ");
 //  int Y1 = Convert.ToInt32(Console.ReadLine());
 // Console.WriteLine("Введите число ");
 //  int Y2 = Convert.ToInt32(Console.ReadLine());
-
 // double d=Math.Sqrt(Math.Pow((X2-X1),2)+Math.Pow((Y2-Y1),2));
 // Console.WriteLine(d);
 
@@ -353,9 +345,10 @@
 // 5 -> 1, 4, 9, 16, 25.
 // 2 -> 1,4
 
+//Решение:
+
 // Console.WriteLine("Введите число ");
 // int num = Convert.ToInt32(Console.ReadLine());
-
 // for (int i = 1; i <= num; i++)
 // {
 //     Console.WriteLine(Math.Pow(i, 2));
@@ -376,13 +369,11 @@
 // {
 //     int sum = 0;
 //     int count = 0;
-
 //     while (number > count)
 //     {
 //         count++;
 //         sum += count;      // тоже самое: sum= sum+count;
 //     }
-
 //     return sum;
 // }
 // Console.WriteLine(GetSumNum());
@@ -400,7 +391,6 @@
 // Console.WriteLine("Введите число: ");
 // int value = Convert.ToInt32(Console.ReadLine());
 // int count = 0;
-
 // while (value > 0)
 // {
 //     count++;
@@ -430,7 +420,6 @@
 // Console.WriteLine("Введите целое число");
 // int num = Convert.ToInt32(Console.ReadLine());
 // int temp = 1;
-
 // for (int i = 1; i <= num; i++)
 // {
 //     temp = temp * i;
@@ -446,7 +435,6 @@
 //Решение:
 
 // int[] numArr = new int[8];  // ввели имя массива и его длинну
-
 // for (int i = 0; i < numArr.Length; i++)
 // {
 //     numArr[i] = new Random().Next(0, 2);
@@ -457,21 +445,17 @@
 
 // Задача 31: Задайте массив из 12 элементов, заполненный случайными числами 
 // из промежутка [-9, 9]. Найдите сумму отрицательных и положительных элементов массива.
-
 // Например, в массиве [3,9,-8,1,0,-7,2,-1,8,-3,-1,6] сумма положительных чисел равна 29, 
 // сумма отрицательных равна -20.
 
 // Решение:
 
 // int[] numArr = new int[12];
-
 // int positiveNum = 0;
 // int negNum = 0;
-
 // for (int i = 0; i < numArr.Length; i++)
 // {
 //     numArr[i] = new Random().Next(-9, 10);
-
 //     if (numArr[i] > 0)
 //     {
 //         positiveNum += numArr[i];
@@ -481,9 +465,8 @@
 //         negNum += numArr[i];
 //     }
 // }
-
 // Console.WriteLine(String.Join(",", numArr) +
-// "\nСумма положительных " + positiveNum + " отрицательных " + negNum);
+// "\nСумма положительных " + positiveNum + " отрицательных " + negNum); // символ "\n" в тексте позволяет из одной строки сделать две
 
 //======================================================================
 
@@ -495,14 +478,11 @@
 // Решение:
 
 // int[] numArr = new int[] {1,7898,66,-6,-52,0};
-
 // Console.WriteLine(String.Join(",",numArr));
-
 // for(int i=0;i<numArr.Length;i++)
 // {
 //     numArr[i]=-numArr[i];
 // }
-
 // Console.WriteLine(String.Join(",",numArr));
 
 //===============================================================================
@@ -526,7 +506,6 @@
 //         flag = true;
 //         break;
 //     }
-
 // }
 // if (flag == true)
 // {
@@ -575,11 +554,9 @@
 // int lg = arr.Length;                //задаем переменную для длинны первого массива для простоты формул
 // int middle = lg / 2 + lg % 2;           //узнаем длину второго массива(четный или нет)
 // int[] arr2 = new int[middle];       //задаем длину второго массива
-
 // for (int i = 0; i < middle; i++)
 // {
 //     arr2[i] = arr[i] * arr[lg - i - 1];  //берем пары элементов(1 и последний, 2й и предпоследний...) и перемножаем
-
 //     if (i == lg - 1 - i)               //если массив не четный
 //     {
 //         arr2[i] = arr[lg - 1 - i];    //то записать центральный элемент в конец второго массива
