@@ -154,9 +154,17 @@
 // int a = num /100;
 // int b = num % 10;
 // int c = (num % 100) / 10;
-// Console.WriteLine("Итоговое число " + a + b);
-// Console.WriteLine($"Итоговое число {a}{b}");
-// Console.WriteLine($"Итоговое число {c}");
+// Console.WriteLine($"Итоговое число {a}{b}"); // или так: Console.WriteLine("Итоговое число " + a + b);
+// Console.WriteLine($"Убранное число {c}");
+
+// или
+
+// int num= new Random().Next(100,1000);
+// Console.WriteLine(num);
+// int num1=num/100;
+// int num2=num%10;
+// int result= num1*10+num2;
+// Console.WriteLine(result);
 
 //====================================================
 
