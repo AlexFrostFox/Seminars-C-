@@ -186,6 +186,23 @@
 //     Console.WriteLine ("Число 2 не кратно числу 1 отстаток " + result);
 // }
 
+//или
+
+// Console.WriteLine("Введите большее  число");
+// int num1=Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите число");
+// int num2=Convert.ToInt32(Console.ReadLine());
+// if (num1 % num2 == 0) 
+// {
+//     Console.WriteLine("Кратны");
+// }
+// else
+// {   // Канкатинация:
+//     // Console.WriteLine("Остаток от деления"+ num1 % num2);
+//     // Интерполяция:
+//     Console.WriteLine($"Остаток от деления {num1 % num2}");
+// }
+
 //==================================Вычисление кратности одновременно двум числам===================
 
 // Напишите программу, которая принимает на вход число
