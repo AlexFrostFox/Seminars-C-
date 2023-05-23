@@ -235,21 +235,17 @@
 // 25, 5  ->  да
 // 8,9  ->  нет
 
-// Console.WriteLine("Введите 1 число");
+// Console.WriteLine("Введите число");
 // int num1 = Convert.ToInt32(Console.ReadLine());
-// Console.WriteLine("Введите 2 число");
+// Console.WriteLine("Введите число");
 // int num2 = Convert.ToInt32(Console.ReadLine());
-// if (num2 == num1*num1)
+// if ((num1 == num2 * num2) || (num2 == num1 * num1))
 // {
-//     Console.WriteLine("Число 2 является квадратом числа 1");
-// }
-// else if (num1 == num2*num2)
-// {
-//     Console.WriteLine("Число 1 является квадратом числа 2");
+//     Console.WriteLine("Да");
 // }
 // else
 // {
-//     Console.WriteLine("Числа несовместимы");
+//     Console.WriteLine("Нет");
 // }
 
 //========================================================ТРЕТИЙ СЕМИНАР==========================================================
