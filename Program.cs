@@ -256,29 +256,29 @@
 //Решение:
 
 // Console.WriteLine("Введите число ");
-//  int X = Convert.ToInt32(Console.ReadLine());
-//  Console.WriteLine("Введите число ");
-//  int Y = Convert.ToInt32(Console.ReadLine());
-//  if (X>0 &&Y>0)
-//  {
+// int X = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите число ");
+// int Y = Convert.ToInt32(Console.ReadLine());
+// if (X > 0 && Y > 0)
+// {
 //     Console.WriteLine("1 четверть ");
-//  }
-//  else if(X<0 &&Y>0)
-//  {
+// }
+// else if (X < 0 && Y > 0)
+// {
 //     Console.WriteLine("2 четверть ");
-//  }
-// else if(X<0 &&Y<0)
-//  {
+// }
+// else if (X < 0 && Y < 0)
+// {
 //     Console.WriteLine("3 четверть ");
-//  }
-//  else if(X>0 &&Y<0)
-//  {
+// }
+// else if (X > 0 && Y < 0)
+// {
 //     Console.WriteLine("4 четверть ");
-//  }
-//  else
-//  {
+// }
+// else
+// {
 //     Console.WriteLine("Точка находитя на одной или двух осях координат ");
-//  }
+// }
 
 //===============================================================================
 
