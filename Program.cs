@@ -696,3 +696,62 @@
 
 //====================================================СЕМИНАР СЕДЬМОЙ==========================================================
 
+
+//====================================================СЕМИНАР ВОСЬМОЙ==========================================================
+
+// Задача 53: Задайте двумерный массив. Напишите программу, которая 
+// поменяет местами первую и последнюю строку массива.
+
+// Решение:
+
+// Console.WriteLine("Введите кол. строчек");
+// int rows = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите кол. колонок");
+// int columns = Convert.ToInt32(Console.ReadLine());
+
+// int[,] array = new int[rows, columns];
+
+// void GetArray()
+// {
+//     for (int i = 0; i < array.GetLength(0); i++)
+//     {
+//         for (int j = 0; j < array.GetLength(1); j++)
+//         {
+//             // double i = new Random().NextDouble()+new Random().Next();
+//             array[i, j] = new Random().Next(0, 10);
+//         }
+//     }
+// }
+
+// void PrintArray()
+// {
+//     for (int i = 0; i < array.GetLength(0); i++)
+//     {
+//         for (int j = 0; j < array.GetLength(1); j++)
+//         {
+//             Console.Write(array[i, j]);
+//         }
+//         Console.WriteLine();
+//     }
+// }
+
+// void ChangArray()
+// {
+//     int maxIndex = array.GetLength(0) - 1;
+
+//     for (int j = 0; j < array.GetLength(1); j++)
+//     {
+//         int temp = array[0, j];
+//         array[0, j] = array[maxIndex, j];
+//         array[maxIndex, j] = temp;
+//     }
+
+// }
+// GetArray();
+// PrintArray();
+// ChangArray();
+// Console.WriteLine("_________");
+// PrintArray();
+
+//=============================================================
+
