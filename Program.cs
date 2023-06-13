@@ -755,3 +755,126 @@
 
 //=============================================================
 
+// Задача 55: Задайте двумерный массив. Напишите программу,
+//  которая заменяет строки на столбцы. В случае, если это 
+//  невозможно, программа должна вывести сообщение для пользователя.
+
+//Решение:
+
+// Console.WriteLine("Введите кол. строчек");
+// int rows = Convert.ToInt32(Console.ReadLine());
+
+// int[,] array = new int[rows, rows];
+
+// int[,] array2 = new int[array.GetLength(0), array.GetLength(1)];
+
+// void GetArray()
+// {
+//     for (int i = 0; i < array.GetLength(0); i++)
+//     {
+//         for (int j = 0; j < array.GetLength(1); j++)
+//         {
+//             // double i = new Random().NextDouble()+new Random().Next();
+//             array[i, j] = new Random().Next(0, 10);
+//         }
+//     }
+// }
+
+// void PrintArray(int[,] result)
+// {
+//     for (int i = 0; i < result.GetLength(0); i++)
+//     {
+//         for (int j = 0; j < result.GetLength(1); j++)
+//         {
+//             Console.Write(result[i, j]);
+//         }
+//         Console.WriteLine();
+//     }
+// }
+
+// void FillingNewArray()
+// {
+//     for (int i = 0; i < array.GetLength(0); i++)
+//     {
+//         for (int j = 0; j < array.GetLength(1); j++)
+//         {
+//             array2[j, i] = array[i, j];
+//         }
+//     }
+// }
+// GetArray();
+// PrintArray(array);
+// FillingNewArray();
+// Console.WriteLine("_________");
+// PrintArray(array2);
+
+//==================================================================
+
+// Задача 59: Задайте двумерный массив из целых чисел.
+//  Напишите программу, которая удалит строку и столбец, на 
+//  пересечении которых расположен наименьший элемент массива.
+
+// Console.WriteLine("Введите кол. строчек");
+// int rows = Convert.ToInt32(Console.ReadLine());
+
+// int[,] array = new int[rows, rows];
+// int minVulue = int.MaxValue;
+// int minIndexRows = 0;
+// int minIndexColumns = 0;
+
+
+// void GetArray()
+// {
+//     for (int i = 0; i < array.GetLength(0); i++)
+//     {
+//         for (int j = 0; j < array.GetLength(1); j++)
+//         {
+//             array[i, j] = new Random().Next(0, 10);
+
+//             if (array[i, j] < minVulue)
+//             {
+//                 minVulue = array[i, j];
+//                 minIndexRows = i;
+//                 minIndexColumns = j;
+//             }
+//         }
+//     }
+// }
+
+// void PrintArray(int[,] result)
+// {
+//     for (int i = 0; i < result.GetLength(0); i++)
+//     {
+//         for (int j = 0; j < result.GetLength(1); j++)
+//         {
+//             Console.Write(result[i, j]);
+//         }
+//         Console.WriteLine();
+//     }
+// }
+
+// void FillingNewArray()
+// {
+//     for (int i = 0; i < array.GetLength(0); i++)
+//     {
+//         if (i != minIndexRows)
+//         {
+//             for (int j = 0; j < array.GetLength(1); j++)
+//             {
+//                 if (j != minIndexColumns)
+//                 {
+//                     Console.Write(array[i, j]);
+//                 }
+
+//             }
+//         }
+//         Console.WriteLine();
+//     }
+// }
+// GetArray();
+// PrintArray(array);
+// Console.WriteLine("_________");
+// FillingNewArray();
+// Console.WriteLine($"Минимальное значение: {minVulue}, индексы{minIndexRows},{minIndexColumns}");
+
+//==================================================================
